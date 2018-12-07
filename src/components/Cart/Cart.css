@@ -1,0 +1,32 @@
+.cart-container {
+  border: 1px solid #999;
+  padding: 5px;
+  margin-top: 50px;
+}
+.cart__body {
+  margin-bottom: 0.7em;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  clear: both;
+}
+
+.cart-item__name {
+  vertical-align: middle;
+}
+
+.cart-item__price {
+  text-align: right
+}
+
+.cart__total {
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.1em;
+  text-align: right;
+}
